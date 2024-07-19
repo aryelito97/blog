@@ -1,0 +1,92 @@
+
+body {
+    position: auto;
+    transform: translate(0%,0%);
+    top: 110%;
+    left: 110%;
+    background-image: url(fotos/descarga\ \(3\).jpeg);
+    background-color: #024;
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.tarjeta {
+    max-width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fcfdfa; 
+    box-shadow: 0 0 50PX rgba(0, 0, 0, 2);
+    text-align: center;
+    color: rgb(1, 13, 24);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 70px 90px rgb(250, 251, 252);
+    justify-content: center;
+}
+
+
+.foto {
+    border-radius: 50%;
+    box-shadow: 0 -20px 30px #024;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #024; 
+}
+.foto:hover {
+    transform: scale(1.1);
+
+}
+
+h1 {
+    color: #024;
+    margin-bottom: 10px;
+}
+h1:hover {
+    transform: scale(1.1);
+    color: rgb(14, 53, 63);
+}
+p:hover {
+    transform: scale(1.1);
+    color: rgb(14, 53, 63);
+}
+
+.icono {
+    width: 15px;
+    height: 15px;
+}
+.icono:hover {
+    transform: scale(2.2);
+    color: rgb(18, 192, 235);
+}
+footer {
+    margin-top: 20%;
+    color: rgb(233, 238, 243);
+    background-color: #024;
+    margin: 0;
+}
+a {
+    color: rgb(250, 250, 250);
+}
+.botones :hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+}
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    transition: .3s;
+    color: rgb(252, 253, 253);
+}
+
+.icons i:hover {
+    transform: scale(2.2);
+    color: rgb(18, 192, 235);
+}
+

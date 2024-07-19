@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(fotos/fondo2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus {
+    border-color: green;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 48px;
+    margin: 0 10px;
+    display: inline-block;
+    background-size: contain;
+    transition:  0.3s;
+
+    margin-left: 20px;
+    font-size: 38px;
+
+    color: rgb(40, 163, 194);
+}
+
+.icon:hover {
+    transform: scale(1.5);
+}
+
+.ics {
+    margin-top: 10px;
+}
+
+.ics i {
+    margin-left: 0px;
+    font-size: 15px;
+    transition: .3s;
+    color: #024;
+}
+
+.ics p:hover {
+    transform: scale(1.5);
+    color: #024;
+}
+
+.facebook {
+    background-image: url(fotos/facebook-f-brands-solid.svg); /* Asegúrate de tener estos iconos en tu carpeta de proyecto */
+}
+
+.instagram {
+    background-image: url(fotos/instagram-brands-solid.svg);
+}
+
+.twitter {
+    background-image: url(fotos/x-twitter-brands-solid.svg);
+}
